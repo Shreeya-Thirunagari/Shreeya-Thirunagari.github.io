@@ -1,33 +1,42 @@
 # Shreeya Thirunagari — Portfolio
 
-A responsive, dark-blue and white portfolio website built with plain HTML, CSS and JavaScript. It is designed for free hosting on GitHub Pages.
+A responsive, dark-blue and white portfolio website built with plain HTML, CSS and JavaScript. Designed for free hosting on GitHub Pages.
 
-## Included
+**Live site:** [https://Shreeya-Thirunagari.github.io](https://Shreeya-Thirunagari.github.io)
+
+## Included files
 - `index.html` — portfolio content and sections
 - `style.css` — responsive visual design
 - `script.js` — mobile navigation and current year
-- `assets/resume/` — place your PDF resume here
+- `assets/resume/` — place your PDF resume here as `resume.pdf`
+
+## Sections
+- **Hero** — introduction and call-to-action
+- **About** — short bio and key metrics
+- **Skills** — Programming, Data & databases, Analytics & ML, Tools & practices
+- **Projects** — E-commerce Order Pipeline, Chatbot using Python, Wildfire Detection, Yoga Peace, Tania Homes, BRVTH Care Solutions
+- **Experience** — Software Engineer (vSplash Techlabs) and Freelance Software Developer
+- **Contact** — LinkedIn, GitHub and resume links
 
 ## Before publishing
 1. Add your latest resume PDF to `assets/resume/` and name it exactly `resume.pdf`.
-2. Check the education details in `index.html`. Add institution names and graduation years if you want them displayed.
-3. Add repository/demo links for projects where the page currently says "Add repository or demo link when published".
-4. Review the project descriptions and metrics to ensure they match what you can explain in an interview.
-5. Confirm your LinkedIn and GitHub profile URLs.
+2. Add institution names and graduation years in the Education block of `index.html` if desired.
+3. (Optional) Add a GitHub link for the Wildfire Detection project when ready.
+4. Review project descriptions and metrics so they match what you can discuss in interviews.
 
-## Publish on GitHub Pages
-1. Sign in to GitHub.
-2. Create a **public** repository named exactly `Shreeya-Thirunagari.github.io` if your GitHub username is `Shreeya-Thirunagari`. If your username differs, use `<your-username>.github.io`.
-3. Upload all files and folders from this project. `index.html` must be in the repository root.
-4. Open **Settings → Pages**.
+## Deploy on GitHub Pages
+1. Create a **public** repository named `Shreeya-Thirunagari.github.io`.
+2. Make sure `index.html` is in the **root** of the repository (not inside a subfolder).
+3. Push the files to the `main` branch.
+4. Go to **Settings → Pages**.
 5. Under **Build and deployment**, choose **Deploy from a branch**.
 6. Select branch `main` and folder `/ (root)`, then save.
-7. Wait for GitHub Pages to publish. Your site will be at `https://<your-username>.github.io/`.
+7. Wait 1–2 minutes. Your site will be live at `https://Shreeya-Thirunagari.github.io`.
 
 ## Update later
-Edit `index.html` to update your profile, project descriptions, experience and links. Replace `assets/resume/resume.pdf` whenever your resume changes. Commit the changes to `main`; GitHub Pages will publish the update.
+Edit `index.html` (or other files), then commit and push to `main`. GitHub Pages will publish the update automatically.
 
 ## Notes
 - No paid domain or hosting is required.
-- Google Fonts is used for typography; if it is unavailable, the site falls back to system fonts.
-- The resume file is intentionally a placeholder location because no resume PDF was supplied with this request.
+- Google Fonts is used for typography; the site falls back to system fonts if unavailable.
+- Tech stack highlighted: HTML, CSS, JavaScript, PHP, SQL, Python.
